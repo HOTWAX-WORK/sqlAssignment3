@@ -1,3 +1,16 @@
+-- 10 Total Items in Various Virtual Facilities
+-- Business Problem:
+-- Retailers need to study the relation of inventory levels of products to the type of facility it's stored at. Retrieve all inventory levels for products at locations and include the facility type Id. Do not retrieve facilities that are of type Virtual.
+
+-- Fields to Retrieve:
+
+-- PRODUCT_ID
+-- FACILITY_ID
+-- FACILITY_TYPE_ID
+-- QOH (Quantity on Hand)
+-- ATP (Available to Promise)
+
+
 select
 ii.INVENTORY_ITEM_ID ,
 	ii.PRODUCT_ID ,
