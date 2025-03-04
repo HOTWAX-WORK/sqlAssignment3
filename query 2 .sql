@@ -1,3 +1,19 @@
+-- 2 Completed Return Items
+-- Business Problem:
+-- Customer service and finance often need insights into returned items to manage refunds, replacements, and inventory restocking.
+
+-- Fields to Retrieve:
+
+-- RETURN_ID
+-- ORDER_ID
+-- PRODUCT_STORE_ID
+-- STATUS_DATETIME
+-- ORDER_NAME
+-- FROM_PARTY_ID
+-- RETURN_DATE
+-- ENTRY_DATE
+-- RETURN_CHANNEL_ENUM_ID
+
 select
 	ri.RETURN_ID ,
 	ri.ORDER_ID ,
