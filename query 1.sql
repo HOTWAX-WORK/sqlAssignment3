@@ -1,3 +1,21 @@
+	-- 1 Completed Sales Orders (Physical Items)
+	-- Business Problem:
+	-- Merchants need to track only physical items (requiring shipping and fulfillment) for logistics and shipping-cost analysis.
+	
+	-- Fields to Retrieve:
+	
+	-- ORDER_ID
+	-- ORDER_ITEM_SEQ_ID
+	-- PRODUCT_ID
+	-- PRODUCT_TYPE_ID
+	-- SALES_CHANNEL_ENUM_ID
+	-- ORDER_DATE
+	-- ENTRY_DATE
+	-- STATUS_ID
+	-- STATUS_DATETIME
+	-- ORDER_TYPE_ID
+	-- PRODUCT_STORE_ID
+
 select
 	oh.ORDER_ID ,
 	oi.ORDER_ITEM_SEQ_ID ,
