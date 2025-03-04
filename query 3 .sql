@@ -1,3 +1,12 @@
+-- 3 Single-Return Orders (Last Month)
+-- Business Problem:
+-- The mechandising team needs a list of orders that only have one return.
+
+-- Fields to Retrieve:
+
+-- PARTY_ID
+-- FIRST_NAME
+
 select
 	person.PARTY_ID ,
 	ri.ORDER_ID ,
