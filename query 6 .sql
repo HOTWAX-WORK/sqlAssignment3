@@ -1,3 +1,15 @@
+-- 6 Orders with Multiple Returns
+-- Business Problem:
+-- Analyzing orders with multiple returns can identify potential fraud, chronic issues with certain items, or inconsistent shipping processes.
+
+-- Fields to Retrieve:
+
+-- ORDER_ID
+-- RETURN_ID
+-- RETURN_DATE
+-- RETURN_REASON
+-- RETURN_QUANTITY
+
 SELECT 
     ri.ORDER_ID,
     ri.RETURN_ID,
